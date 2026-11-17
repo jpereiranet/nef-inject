@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "comment": "Solo viñeteado radial y color shading, ruido fotonico/lectura/defectos desactivados: control de ablacion.",
+  "cfa": "RGGB",
+  "black_dn": 0,
+  "white_dn": 15000,
+  "electrons_per_dn": 4.0,
+  "read_noise_e": 0.0,
+  "prnu_fraction": 0.0,
+  "dsnu_e": 0.0,
+  "row_fpn_e": 0.0,
+  "col_fpn_e": 0.0,
+  "row_temporal_e": 0.0,
+  "col_temporal_e": 0.0,
+  "dark_current_e_per_s": 0.0,
+  "exposure_s": 0.01,
+  "vignette": {
+    "edge_factor": 0.78,
+    "power": 2.0
+  },
+  "color_shading_edge_factors": [
+    0.99,
+    1.0,
+    1.0,
+    1.02
+  ],
+  "defects": {
+    "dead_ppm": 0.0,
+    "hot_ppm": 0.0,
+    "hot_e": 0.0
+  },
+  "fixed_seed": 1731,
+  "temporal_seed": 1732,
+  "tile_rows": 128,
+  "shot_noise_enabled": false
+}
+

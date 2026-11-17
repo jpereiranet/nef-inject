@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "comment": "Perfil extremo ilustrativo: simula una captura a ISO muy alto para hacer visibles el ruido, banding y defectos. No representa una cámara concreta.",
+  "cfa": "RGGB",
+  "black_dn": 0,
+  "white_dn": 15000,
+  "electrons_per_dn": 0.6,
+  "read_noise_e": 20.0,
+  "prnu_fraction": 0.08,
+  "dsnu_e": 18.0,
+  "row_fpn_e": 10.0,
+  "col_fpn_e": 14.0,
+  "row_temporal_e": 7.0,
+  "col_temporal_e": 8.0,
+  "dark_current_e_per_s": 3.0,
+  "exposure_s": 0.05,
+  "vignette": {
+    "edge_factor": 1.0,
+    "power": 2.0
+  },
+  "color_shading_edge_factors": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "defects": {
+    "dead_ppm": 150.0,
+    "hot_ppm": 350.0,
+    "hot_e": 8000.0
+  },
+  "fixed_seed": 7341,
+  "temporal_seed": 7342,
+  "tile_rows": 128,
+  "shot_noise_enabled": true
+}

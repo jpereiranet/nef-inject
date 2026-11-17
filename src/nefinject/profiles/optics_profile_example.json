@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "comment": "EJEMPLO, no medicion de Nikon D610 ni de su objetivo. Distancias y sigma en fotositos de salida.",
+  "psf": {"sigma_x_px": 0.65, "sigma_y_px": 0.65},
+  "olpf": {"separation_x_px": 0.6, "separation_y_px": 0.6},
+  "vignetting": {"edge_factor": 0.82, "power": 2.0, "center_x": 0.5, "center_y": 0.5},
+  "lateral_ca": {"red_scale_delta": 0.0003, "blue_scale_delta": -0.0003},
+  "distortion": {"k1": 0.0, "k2": 0.0},
+  "background_linear": 0.18
+}
+

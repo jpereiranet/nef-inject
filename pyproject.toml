@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nefinject"
+version = "1.0.0"
+description = "Librería científica de alto rendimiento para síntesis Bayer e inyección transaccional en archivos RAW Nikon NEF (D610 14-bit Lossless)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Proprietary / Scientific Research"}
+authors = [
+    {name = "Proyecto NEF Synthetic Injector"}
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "Pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+accel = [
+    "numba>=0.59.0",
+]
+optics = [
+    "opencv-python>=4.8.0",
+    "tifffile>=2023.7.0",
+]
+verify = [
+    "rawpy>=0.19.0",
+    "imageio>=2.30.0",
+]
+full = [
+    "numba>=0.59.0",
+    "opencv-python>=4.8.0",
+    "tifffile>=2023.7.0",
+    "rawpy>=0.19.0",
+    "imageio>=2.30.0",
+]
+dev = [
+    "pytest>=7.4.0",
+]
+
+[project.scripts]
+nefinject = "nefinject.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"nefinject.profiles" = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
+

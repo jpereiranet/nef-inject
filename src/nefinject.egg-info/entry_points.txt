@@ -1,0 +1,2 @@
+[console_scripts]
+nefinject = nefinject.cli:main

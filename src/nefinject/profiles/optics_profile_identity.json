@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "comment": "Identidad optica: ninguna perturbacion deliberada",
+  "psf": {"sigma_x_px": 0.0, "sigma_y_px": 0.0},
+  "olpf": {"separation_x_px": 0.0, "separation_y_px": 0.0},
+  "vignetting": {"edge_factor": 1.0, "power": 2.0},
+  "lateral_ca": {"red_scale_delta": 0.0, "blue_scale_delta": 0.0},
+  "distortion": {"k1": 0.0, "k2": 0.0}
+}
+

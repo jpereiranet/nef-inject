@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "comment": "Perfil extremo ilustrativo: viñeteado de lente muy acusado y aberraciones visibles para pruebas visuales. No representa un objetivo concreto.",
+  "psf": {
+    "sigma_x_px": 1.4,
+    "sigma_y_px": 1.4
+  },
+  "olpf": {
+    "separation_x_px": 1.1,
+    "separation_y_px": 1.1
+  },
+  "vignetting": {
+    "edge_factor": 0.28,
+    "power": 2.6,
+    "center_x": 0.5,
+    "center_y": 0.5
+  },
+  "lateral_ca": {
+    "red_scale_delta": 0.0,
+    "blue_scale_delta": 0.0
+  },
+  "distortion": {
+    "k1": -0.12,
+    "k2": 0.03
+  },
+  "background_linear": 0.18
+}

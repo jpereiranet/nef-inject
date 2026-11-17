@@ -1,0 +1,15 @@
+experimentos_dng/
+imagenes/
+.venv/
+.claude/
+.pytest_cache/
+.serena/
+documentacion/
+graphify-out/
+tests/
+AGENTS.md
+ARQUITECTURA_Y_DISENO.md
+CLAUDE.md
+results/
+test_images/
+
