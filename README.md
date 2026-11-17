@@ -1,5 +1,7 @@
 # `nefinject` — Scientific Library for Bayer Synthesis and Nikon NEF RAW Injection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24322257.svg)](https://doi.org/10.5281/zenodo.24322257)
+
 *[Leer en español](README_ES.md)*
 
 `nefinject` is a Python library designed to synthesize and inject Bayer mosaics into Nikon RAW files (`NIKON D610`, 14-bit Lossless `0x4630`), aimed at metrological evaluation and the analysis of **demosaicing**, **color management**, and **physical artifact response** algorithms in RAW converters (Adobe Camera Raw, Capture One, LibRaw, Darktable, RawTherapee).
